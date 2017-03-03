@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242F7AD11E63888100D08109 /* GasSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7AD01E63888100D08109 /* GasSettings.swift */; };
+		242F7AD31E63889400D08109 /* InterestSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7AD21E63889400D08109 /* InterestSettings.swift */; };
+		242F7AD51E6388A600D08109 /* TemperatureSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7AD41E6388A600D08109 /* TemperatureSettings.swift */; };
+		242F7AD71E6388BD00D08109 /* TipsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7AD61E6388BD00D08109 /* TipsSettings.swift */; };
+		242F7ADB1E63953A00D08109 /* GasSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7ADA1E63953A00D08109 /* GasSettingsViewController.swift */; };
+		242F7ADD1E63955400D08109 /* InterestSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7ADC1E63955400D08109 /* InterestSettingsViewController.swift */; };
+		242F7ADF1E63956A00D08109 /* TemperatureSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7ADE1E63956A00D08109 /* TemperatureSettingsViewController.swift */; };
+		242F7AE11E63957B00D08109 /* TipsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F7AE01E63957B00D08109 /* TipsSettingsViewController.swift */; };
+		244DBA321E5BA1CA004E7CAA /* GasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DBA311E5BA1CA004E7CAA /* GasViewController.swift */; };
+		244DBA341E5BA1E5004E7CAA /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DBA331E5BA1E5004E7CAA /* InterestViewController.swift */; };
+		244DBA361E5BA1FF004E7CAA /* TaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DBA351E5BA1FF004E7CAA /* TaxViewController.swift */; };
+		244DBA381E5BA21D004E7CAA /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DBA371E5BA21D004E7CAA /* TemperatureViewController.swift */; };
+		244DBA3A1E5BA23D004E7CAA /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DBA391E5BA23D004E7CAA /* TipsViewController.swift */; };
+		24598FAF1E6376B70076FF56 /* TaxSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24598FAE1E6376B70076FF56 /* TaxSettingsViewController.swift */; };
+		24598FB21E63782F0076FF56 /* TaxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24598FB11E63782F0076FF56 /* TaxSettings.swift */; };
+		24CD62991E5B786D00B257C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD62981E5B786D00B257C3 /* AppDelegate.swift */; };
+		24CD629B1E5B786D00B257C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD629A1E5B786D00B257C3 /* ViewController.swift */; };
+		24CD629E1E5B786D00B257C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD629C1E5B786D00B257C3 /* Main.storyboard */; };
+		24CD62A01E5B786D00B257C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD629F1E5B786D00B257C3 /* Assets.xcassets */; };
+		24CD62A31E5B786D00B257C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD62A11E5B786D00B257C3 /* LaunchScreen.storyboard */; };
+		24CD62AE1E5B786E00B257C3 /* QuikAnsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD62AD1E5B786E00B257C3 /* QuikAnsTests.swift */; };
+		24CD62B91E5B786E00B257C3 /* QuikAnsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD62B81E5B786E00B257C3 /* QuikAnsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CD62AA1E5B786E00B257C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CD628D1E5B786D00B257C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CD62941E5B786D00B257C3;
+			remoteInfo = QuikAns;
+		};
+		24CD62B51E5B786E00B257C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CD628D1E5B786D00B257C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CD62941E5B786D00B257C3;
+			remoteInfo = QuikAns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242F7AD01E63888100D08109 /* GasSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasSettings.swift; sourceTree = "<group>"; };
+		242F7AD21E63889400D08109 /* InterestSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestSettings.swift; sourceTree = "<group>"; };
+		242F7AD41E6388A600D08109 /* TemperatureSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureSettings.swift; sourceTree = "<group>"; };
+		242F7AD61E6388BD00D08109 /* TipsSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsSettings.swift; sourceTree = "<group>"; };
+		242F7ADA1E63953A00D08109 /* GasSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasSettingsViewController.swift; sourceTree = "<group>"; };
+		242F7ADC1E63955400D08109 /* InterestSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestSettingsViewController.swift; sourceTree = "<group>"; };
+		242F7ADE1E63956A00D08109 /* TemperatureSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureSettingsViewController.swift; sourceTree = "<group>"; };
+		242F7AE01E63957B00D08109 /* TipsSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsSettingsViewController.swift; sourceTree = "<group>"; };
+		244DBA311E5BA1CA004E7CAA /* GasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasViewController.swift; sourceTree = "<group>"; };
+		244DBA331E5BA1E5004E7CAA /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		244DBA351E5BA1FF004E7CAA /* TaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxViewController.swift; sourceTree = "<group>"; };
+		244DBA371E5BA21D004E7CAA /* TemperatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		244DBA391E5BA23D004E7CAA /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		24598FAE1E6376B70076FF56 /* TaxSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxSettingsViewController.swift; sourceTree = "<group>"; };
+		24598FB11E63782F0076FF56 /* TaxSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxSettings.swift; sourceTree = "<group>"; };
+		24CD62951E5B786D00B257C3 /* QuikAns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikAns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD62981E5B786D00B257C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CD629A1E5B786D00B257C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24CD629D1E5B786D00B257C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CD629F1E5B786D00B257C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CD62A21E5B786D00B257C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24CD62A41E5B786D00B257C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CD62A91E5B786E00B257C3 /* QuikAnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuikAnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD62AD1E5B786E00B257C3 /* QuikAnsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuikAnsTests.swift; sourceTree = "<group>"; };
+		24CD62AF1E5B786E00B257C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CD62B41E5B786E00B257C3 /* QuikAnsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuikAnsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD62B81E5B786E00B257C3 /* QuikAnsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuikAnsUITests.swift; sourceTree = "<group>"; };
+		24CD62BA1E5B786E00B257C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CD62921E5B786D00B257C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62A61E5B786E00B257C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62B11E5B786E00B257C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242F7AD81E6394B600D08109 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				244DBA311E5BA1CA004E7CAA /* GasViewController.swift */,
+				244DBA331E5BA1E5004E7CAA /* InterestViewController.swift */,
+				244DBA351E5BA1FF004E7CAA /* TaxViewController.swift */,
+				244DBA371E5BA21D004E7CAA /* TemperatureViewController.swift */,
+				244DBA391E5BA23D004E7CAA /* TipsViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		242F7AD91E6394C500D08109 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				242F7ADA1E63953A00D08109 /* GasSettingsViewController.swift */,
+				242F7ADC1E63955400D08109 /* InterestSettingsViewController.swift */,
+				24598FAE1E6376B70076FF56 /* TaxSettingsViewController.swift */,
+				242F7ADE1E63956A00D08109 /* TemperatureSettingsViewController.swift */,
+				242F7AE01E63957B00D08109 /* TipsSettingsViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		244DBA301E5BA1AC004E7CAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				242F7AD81E6394B600D08109 /* Home */,
+				242F7AD91E6394C500D08109 /* Settings */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		24598FB01E6378130076FF56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				242F7AD01E63888100D08109 /* GasSettings.swift */,
+				242F7AD21E63889400D08109 /* InterestSettings.swift */,
+				24598FB11E63782F0076FF56 /* TaxSettings.swift */,
+				242F7AD41E6388A600D08109 /* TemperatureSettings.swift */,
+				242F7AD61E6388BD00D08109 /* TipsSettings.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		24CD628C1E5B786D00B257C3 = {
+			isa = PBXGroup;
+			children = (
+				24CD62971E5B786D00B257C3 /* QuikAns */,
+				24CD62AC1E5B786E00B257C3 /* QuikAnsTests */,
+				24CD62B71E5B786E00B257C3 /* QuikAnsUITests */,
+				24CD62961E5B786D00B257C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CD62961E5B786D00B257C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CD62951E5B786D00B257C3 /* QuikAns.app */,
+				24CD62A91E5B786E00B257C3 /* QuikAnsTests.xctest */,
+				24CD62B41E5B786E00B257C3 /* QuikAnsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CD62971E5B786D00B257C3 /* QuikAns */ = {
+			isa = PBXGroup;
+			children = (
+				24598FB01E6378130076FF56 /* Models */,
+				244DBA301E5BA1AC004E7CAA /* Controllers */,
+				24CD62981E5B786D00B257C3 /* AppDelegate.swift */,
+				24CD629A1E5B786D00B257C3 /* ViewController.swift */,
+				24CD629C1E5B786D00B257C3 /* Main.storyboard */,
+				24CD629F1E5B786D00B257C3 /* Assets.xcassets */,
+				24CD62A11E5B786D00B257C3 /* LaunchScreen.storyboard */,
+				24CD62A41E5B786D00B257C3 /* Info.plist */,
+			);
+			path = QuikAns;
+			sourceTree = "<group>";
+		};
+		24CD62AC1E5B786E00B257C3 /* QuikAnsTests */ = {
+			isa = PBXGroup;
+			children = (
+				24CD62AD1E5B786E00B257C3 /* QuikAnsTests.swift */,
+				24CD62AF1E5B786E00B257C3 /* Info.plist */,
+			);
+			path = QuikAnsTests;
+			sourceTree = "<group>";
+		};
+		24CD62B71E5B786E00B257C3 /* QuikAnsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24CD62B81E5B786E00B257C3 /* QuikAnsUITests.swift */,
+				24CD62BA1E5B786E00B257C3 /* Info.plist */,
+			);
+			path = QuikAnsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CD62941E5B786D00B257C3 /* QuikAns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD62BD1E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAns" */;
+			buildPhases = (
+				24CD62911E5B786D00B257C3 /* Sources */,
+				24CD62921E5B786D00B257C3 /* Frameworks */,
+				24CD62931E5B786D00B257C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuikAns;
+			productName = QuikAns;
+			productReference = 24CD62951E5B786D00B257C3 /* QuikAns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24CD62A81E5B786E00B257C3 /* QuikAnsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD62C01E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAnsTests" */;
+			buildPhases = (
+				24CD62A51E5B786E00B257C3 /* Sources */,
+				24CD62A61E5B786E00B257C3 /* Frameworks */,
+				24CD62A71E5B786E00B257C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CD62AB1E5B786E00B257C3 /* PBXTargetDependency */,
+			);
+			name = QuikAnsTests;
+			productName = QuikAnsTests;
+			productReference = 24CD62A91E5B786E00B257C3 /* QuikAnsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CD62B31E5B786E00B257C3 /* QuikAnsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD62C31E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAnsUITests" */;
+			buildPhases = (
+				24CD62B01E5B786E00B257C3 /* Sources */,
+				24CD62B11E5B786E00B257C3 /* Frameworks */,
+				24CD62B21E5B786E00B257C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CD62B61E5B786E00B257C3 /* PBXTargetDependency */,
+			);
+			name = QuikAnsUITests;
+			productName = QuikAnsUITests;
+			productReference = 24CD62B41E5B786E00B257C3 /* QuikAnsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CD628D1E5B786D00B257C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = neit;
+				TargetAttributes = {
+					24CD62941E5B786D00B257C3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					24CD62A81E5B786E00B257C3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24CD62941E5B786D00B257C3;
+					};
+					24CD62B31E5B786E00B257C3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24CD62941E5B786D00B257C3;
+					};
+				};
+			};
+			buildConfigurationList = 24CD62901E5B786D00B257C3 /* Build configuration list for PBXProject "QuikAns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CD628C1E5B786D00B257C3;
+			productRefGroup = 24CD62961E5B786D00B257C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CD62941E5B786D00B257C3 /* QuikAns */,
+				24CD62A81E5B786E00B257C3 /* QuikAnsTests */,
+				24CD62B31E5B786E00B257C3 /* QuikAnsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CD62931E5B786D00B257C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD62A31E5B786D00B257C3 /* LaunchScreen.storyboard in Resources */,
+				24CD62A01E5B786D00B257C3 /* Assets.xcassets in Resources */,
+				24CD629E1E5B786D00B257C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62A71E5B786E00B257C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62B21E5B786E00B257C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CD62911E5B786D00B257C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242F7ADF1E63956A00D08109 /* TemperatureSettingsViewController.swift in Sources */,
+				242F7ADD1E63955400D08109 /* InterestSettingsViewController.swift in Sources */,
+				242F7AD11E63888100D08109 /* GasSettings.swift in Sources */,
+				244DBA341E5BA1E5004E7CAA /* InterestViewController.swift in Sources */,
+				244DBA321E5BA1CA004E7CAA /* GasViewController.swift in Sources */,
+				244DBA3A1E5BA23D004E7CAA /* TipsViewController.swift in Sources */,
+				24CD629B1E5B786D00B257C3 /* ViewController.swift in Sources */,
+				244DBA361E5BA1FF004E7CAA /* TaxViewController.swift in Sources */,
+				242F7AD31E63889400D08109 /* InterestSettings.swift in Sources */,
+				24598FB21E63782F0076FF56 /* TaxSettings.swift in Sources */,
+				24CD62991E5B786D00B257C3 /* AppDelegate.swift in Sources */,
+				244DBA381E5BA21D004E7CAA /* TemperatureViewController.swift in Sources */,
+				24598FAF1E6376B70076FF56 /* TaxSettingsViewController.swift in Sources */,
+				242F7AD51E6388A600D08109 /* TemperatureSettings.swift in Sources */,
+				242F7AD71E6388BD00D08109 /* TipsSettings.swift in Sources */,
+				242F7AE11E63957B00D08109 /* TipsSettingsViewController.swift in Sources */,
+				242F7ADB1E63953A00D08109 /* GasSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62A51E5B786E00B257C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD62AE1E5B786E00B257C3 /* QuikAnsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD62B01E5B786E00B257C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD62B91E5B786E00B257C3 /* QuikAnsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CD62AB1E5B786E00B257C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CD62941E5B786D00B257C3 /* QuikAns */;
+			targetProxy = 24CD62AA1E5B786E00B257C3 /* PBXContainerItemProxy */;
+		};
+		24CD62B61E5B786E00B257C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CD62941E5B786D00B257C3 /* QuikAns */;
+			targetProxy = 24CD62B51E5B786E00B257C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24CD629C1E5B786D00B257C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CD629D1E5B786D00B257C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24CD62A11E5B786D00B257C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CD62A21E5B786D00B257C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CD62BB1E5B786E00B257C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CD62BC1E5B786E00B257C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CD62BE1E5B786E00B257C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikAns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24CD62BF1E5B786E00B257C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikAns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24CD62C11E5B786E00B257C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuikAnsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAnsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikAns.app/QuikAns";
+			};
+			name = Debug;
+		};
+		24CD62C21E5B786E00B257C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuikAnsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAnsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikAns.app/QuikAns";
+			};
+			name = Release;
+		};
+		24CD62C41E5B786E00B257C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QuikAnsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAnsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuikAns;
+			};
+			name = Debug;
+		};
+		24CD62C51E5B786E00B257C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QuikAnsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neit.QuikAnsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuikAns;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CD62901E5B786D00B257C3 /* Build configuration list for PBXProject "QuikAns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD62BB1E5B786E00B257C3 /* Debug */,
+				24CD62BC1E5B786E00B257C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD62BD1E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD62BE1E5B786E00B257C3 /* Debug */,
+				24CD62BF1E5B786E00B257C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD62C01E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAnsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD62C11E5B786E00B257C3 /* Debug */,
+				24CD62C21E5B786E00B257C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD62C31E5B786E00B257C3 /* Build configuration list for PBXNativeTarget "QuikAnsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD62C41E5B786E00B257C3 /* Debug */,
+				24CD62C51E5B786E00B257C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CD628D1E5B786D00B257C3 /* Project object */;
+}
